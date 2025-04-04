@@ -34,6 +34,10 @@ container {
     column-rule-color: lightgreen;
 }
 
+.pinkgold {
+    background: linear-gradient(to bottom, pink, gold);
+}
+
 .two-col-layout {
     display: flex;
     flex-direction: row;

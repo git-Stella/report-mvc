@@ -3,13 +3,15 @@
 {% block title %}Magic number{% endblock %}
 
 {% block body %}
-    <h1>Magic number</h1>
-    <p>Welcome to MY awesome magical homepage.</p>
-    <p>This is the current magic number: {{ number }}</p>
-    <p>An image which can be clicked on.</p>
-        <a href="{{ asset('img/glider.svg') }}">
-            <img src="{{ asset('img/glider.svg') }}" alt="">
-        </a>
-    <p>"{{ quote }}"</p>
-    <img src="{{ asset('img/memo.jpg') }}" alt="repme">
+    <container class="pinkgold">
+        <h1>Magic number</h1>
+        <p>Welcome to MY awesome magical homepage.</p>
+        <p>This is the current magic number: {{ number }}</p>
+        <p>An image which can be clicked on.</p>
+            <a href="{{ asset('img/glider.svg') }}">
+                <img src="{{ asset('img/glider.svg') }}" alt="">
+            </a>
+        <p>"{{ quote }}"</p>
+        <img src="{{ asset('img/memo.jpg') }}" alt="repme">
+    </container>
 {% endblock %}

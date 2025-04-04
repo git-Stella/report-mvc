@@ -1,4 +1,4 @@
-![Alttext](images/background.jpg)
+![lackinggeneral](https://github.com/user-attachments/assets/a9cd61e7-c510-4d16-9fee-c98805557142)
 Om repo:
 
 Detta github repo inehåller våran report sida till kursen mvc på bth. 
